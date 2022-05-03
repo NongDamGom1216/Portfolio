@@ -601,6 +601,10 @@ a.active {
   opacity: 1;
 }
 
+.modal-01-on .close-popup-modal {
+  opacity: 1;
+}
+
 .modal-02-on .close-popup-modal {
   opacity: 1;
 }
