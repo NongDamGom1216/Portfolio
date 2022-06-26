@@ -434,7 +434,7 @@ a.active {
 
 .portfolio .categories-grid span {
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   display: inline-block;
 }
 
@@ -621,6 +621,10 @@ a.active {
   opacity: 1;
 }
 
+.modal-06-on .close-popup-modal {
+  opacity: 1;
+}
+
 .modal-content h2 {
   font-family: "Playfair Display", serif;
   font-size: 40px;
@@ -800,7 +804,7 @@ fieldset {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
 }
 
 @media screen and (max-width: 3000px) {
