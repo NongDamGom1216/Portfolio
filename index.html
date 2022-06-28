@@ -10,9 +10,10 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="ionicons/css/ionicons.min.css" rel="stylesheet" />
-  <link href="css/animate.min.css" rel="stylesheet" />
-  <link href="css/normalize.min.css" rel="stylesheet">
   <link href="css/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
 
 
   <script src="https://kit.fontawesome.com/6fc8df13b8.js" crossorigin="anonymous"></script>
@@ -25,6 +26,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   <script type='text/javascript'>
     window.onload = function () {
       if ((parseInt(document.getElementById('body').offsetHeight)
@@ -33,6 +35,10 @@
       }
     }
   </script>
+
+
+
+
 
 
 </head>
@@ -236,8 +242,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 IoT Mobile AI">
-                <a id="App01" href="#animatedModal01" class="portfolio_item">
-                  <img src="img/portfolio/photo-album.png" alt="image" class="img-responsive" />
+                <a id="demo01" href="#modal-01" class="portfolio_item">
+                  <img src="img/portfolio/photo-album.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>X-memory</span> <em>Mobile / AI / Web</em></div>
@@ -249,8 +255,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 IoT Mobile AI">
-                <a id="App02" href="#animatedModal02" class="portfolio_item">
-                  <img src="img/oliverecipe/olive-oil.png" alt="image" class="img-responsive" />
+                <a id="demo02" href="#modal-02" class="portfolio_item">
+                  <img src="img/oliverecipe/olive-oil.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>OliveRecipe</span> <em>Mobile / AI / IoT</em></div>
@@ -262,8 +268,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 Web">
-                <a id="App03" href="#animatedModal03" class="portfolio_item">
-                  <img src="img/portfolio/django.png" alt="image" class="img-responsive" />
+                <a id="demo03" href="#modal-03" class="portfolio_item">
+                  <img src="img/portfolio/django.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>Team Scheduler</span> <em>Web</em></div>
@@ -275,8 +281,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 AI Web">
-                <a id="App04" href="#animatedModal04" class="portfolio_item">
-                  <img src="img/portfolio/nlp.png" alt="image" class="img-responsive" />
+                <a id="demo04" href="#modal-04" class="portfolio_item">
+                  <img src="img/portfolio/nlp.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>자연어처리 기반의 불공정 약관 판별 연구</span> <em>AI / Web</em></div>
@@ -288,8 +294,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 Web">
-                <a id="App05" href="#animatedModal05" class="portfolio_item">
-                  <img src="img/portfolio/homepage.png" alt="image" class="img-responsive" />
+                <a id="demo05" href="#modal-05" class="portfolio_item">
+                  <img src="img/portfolio/homepage.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>차체 검사구 렌탈 서비스 기업의 홈페이지 기획</span> <em>Web</em></div>
@@ -301,8 +307,8 @@
 
               <!-- single work -->
               <div class="col-md-4 col-sm-6 IoT Mobile">
-                <a id="App06" href="#animatedModal06" class="portfolio_item">
-                  <img src="img/portfolio/raspberry.png" alt="image" class="img-responsive" />
+                <a id="demo06" href="#modal-06" class="portfolio_item">
+                  <img src="img/portfolio/raspberry.png" alt="image" class="img-responsive" width=300 />
                   <div class="portfolio_item_hover">
                     <div class="portfolio-border clearfix">
                       <div class="item_info"><span>라즈베리파이 프로젝트</span> <em>IoT / Mobile</em></div>
@@ -523,9 +529,9 @@
   <!-- ./contact -->
 
   <!--animatedModal01-->
-  <div id="animatedModal01" class="popup-modal">
+  <div id="modal-01" class="popup-modal">
     <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal01 close-popup-modal"><i class="ion-close-round"></i></div>
+    <div id="btn-close-modal" class="close-modal-01 close-popup-modal"><i class="ion-close-round"></i></div>
     <div class="clearfix"></div>
     <div class="modal-content">
       <div class="container">
@@ -585,592 +591,549 @@
               <br />
               <br />
               <pre>프로젝트 소개</pre>
-              <div class="detail" onclick="window.open('https://drive.google.com/file/d/1_Xt16XLBnpYm0fV7CMPP3yguIucyZbWc/view?usp=sharing')"
-              style="cursor:pointer;">
-              <strong>[소개 영상 보러 가기]</strong>
-              <br />
-              <br />
-              <pre>주요 기능</pre>
-              <br />
-              <img src="img/xmemory/skill.png" width=500 />
-              <br />
-              <br />
-              <pre>시연 영상</pre>
-              <br />
-              <h5>
-                <사진 업로드>
-              </h5>
-              <img src="img/xmemory/upload.gif" width=250 />
-              <img src="img/xmemory/cake.gif" width=250 />
-              <br />
-              <br />
-              <h5>
-                <태그 추가 & 태그 검색>
-              </h5>
-              <img src="img/xmemory/addtag.gif" width=250 />
-              <img src="img/xmemory/search.gif" width=250 />
-              <br />
-              <br />
-              <h5>
-                <데이터 분석 & 시간 분석 & 장소 분석>
-              </h5>
-              <img src="img/xmemory/data.gif" width=200 />
-              <img src="img/xmemory/time.gif" width=200 />
-              <img src="img/xmemory/place.gif" width=200 />
-              <br />
-              <br />
-              <pre>프로젝트 성과</pre>
-              <br />
-              <img src="img/xmemory/review.jpg" width=500 />
-              <br />
-              <br />
-              <br />
-            </div>
+              <div class="detail"
+                onclick="window.open('https://drive.google.com/file/d/1_Xt16XLBnpYm0fV7CMPP3yguIucyZbWc/view?usp=sharing')"
+                style="cursor:pointer;">
+                <strong>[소개 영상 보러 가기]</strong>
+                <br />
+                <br />
+                <pre>주요 기능</pre>
+                <br />
+                <img src="img/xmemory/skill.png" width=500 />
+                <br />
+                <br />
+                <pre>시연 영상</pre>
+                <br />
+                <h5>
+                  <사진 업로드>
+                </h5>
+                <img src="img/xmemory/upload.gif" width=250 />
+                <img src="img/xmemory/cake.gif" width=250 />
+                <br />
+                <br />
+                <h5>
+                  <태그 추가 & 태그 검색>
+                </h5>
+                <img src="img/xmemory/addtag.gif" width=250 />
+                <img src="img/xmemory/search.gif" width=250 />
+                <br />
+                <br />
+                <h5>
+                  <데이터 분석 & 시간 분석 & 장소 분석>
+                </h5>
+                <img src="img/xmemory/data.gif" width=200 />
+                <img src="img/xmemory/time.gif" width=200 />
+                <img src="img/xmemory/place.gif" width=200 />
+                <br />
+                <br />
+                <pre>프로젝트 성과</pre>
+                <br />
+                <img src="img/xmemory/review.jpg" width=500 />
+                <br />
+                <br />
+                <br />
+              </div>
 
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--animatedModal02-->
-  <div id="animatedModal02" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal02 close-popup-modal"><i class="ion-close-round"></i></div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>
-              OliveRecipe<br />
-              with Android Kotlin
-            </h2>
+    <!--animatedModal02-->
+    <div id="modal-02" class="popup-modal">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-modal-02 close-popup-modal"><i class="ion-close-round"></i></div>
+      <div class="clearfix"></div>
+      <div class="modal-content">
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>
+                OliveRecipe<br />
+                with Android Kotlin
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;AI객체 인식 기술을 활용한 레시피 추천 앱 </br>
-              <i class="far fa-hand-point-right"></i>&nbsp;이미지 인식을 통한 식재료 추가와 이를 기반으로 레시피를 추천
-            </p>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;AI객체 인식 기술을 활용한 레시피 추천 앱 </br>
+                <i class="far fa-hand-point-right"></i>&nbsp;이미지 인식을 통한 식재료 추가와 이를 기반으로 레시피를 추천
+              </p>
 
-            <br />
-            <p>
-              <strong>[기간]</strong> 2022.04 (약 3주) </br>
-              <strong>[프로젝트 인원]</strong> 4명 </br>
-              <strong>[사용 기술]</strong> Kotlin, Python, raspberry pi 4, android room, TFLite </br>
-              <strong>[목적]</strong> 냉장고 재료 활용 및 레시피 추천을 통한 식생활 개선 </br>
-              <strong>[프로젝트 요약]</strong> 객체 인식 기술과 IoT 기술을 결합하여 식생활 개선에 도움을 주는 재료 기반 레시피 추천 앱 구현</br>
-              <strong>[담당 업무]</strong> </br>
-              안드로이드 드로잉 바 & 네비게이션 바 연동 </br>
-              프래그먼트를 통한 앱의 전체적인 틀 구현 </br>
-              Room을 활용하여 재료를 저장할 수 있는 나의 냉장고 프래그먼트 구현 </br>
-              Mqtt 통신을 통해 라즈베리파이에 스피커를 연결해 음성으로 레시피 재생 </br>
-              나의 냉장고에 저장된 재료의 유통기한이 1일 미만으로 남았을 때 음성으로 알림 및 카카오톡 메시지 전송 </br>
-              파이 카메라 연결을 통해 냉장고 안의 사진을 앱으로 전송 </br>
-              <strong>[성과]</strong> 멀티캠퍼스 IoT 활용 프로젝트 수료 </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/OliveRecipe')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
+              <br />
+              <p>
+                <strong>[기간]</strong> 2022.04 (약 3주) </br>
+                <strong>[프로젝트 인원]</strong> 4명 </br>
+                <strong>[사용 기술]</strong> Kotlin, Python, raspberry pi 4, android room, TFLite </br>
+                <strong>[목적]</strong> 냉장고 재료 활용 및 레시피 추천을 통한 식생활 개선 </br>
+                <strong>[프로젝트 요약]</strong> 객체 인식 기술과 IoT 기술을 결합하여 식생활 개선에 도움을 주는 재료 기반 레시피 추천 앱 구현</br>
+                <strong>[담당 업무]</strong> </br>
+                안드로이드 드로잉 바 & 네비게이션 바 연동 </br>
+                프래그먼트를 통한 앱의 전체적인 틀 구현 </br>
+                Room을 활용하여 재료를 저장할 수 있는 나의 냉장고 프래그먼트 구현 </br>
+                Mqtt 통신을 통해 라즈베리파이에 스피커를 연결해 음성으로 레시피 재생 </br>
+                나의 냉장고에 저장된 재료의 유통기한이 1일 미만으로 남았을 때 음성으로 알림 및 카카오톡 메시지 전송 </br>
+                파이 카메라 연결을 통해 냉장고 안의 사진을 앱으로 전송 </br>
+                <strong>[성과]</strong> 멀티캠퍼스 IoT 활용 프로젝트 수료 </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/OliveRecipe')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
+
+              <br />
+              <div style="text-align : center;">
+                <pre>기술 스택</pre>
+                <br />
+
+                <img src="img/oliverecipe/stack.png" width=500 />
+                <br />
+                <br />
+                <pre>UI 플로우차트</pre>
+                <br />
+                <img src="img/oliverecipe/ui.png" width=500 />
+              </div>
+              <br />
+              <br />
+              <div style="text-align : center;">
+                <pre>객체 인식 및 나의 냉장고 추가</pre>
+                <br />
+
+                <img src="img/oliverecipe/object.png" width=200 />
+                <img src="img/oliverecipe/add.png" width=200 />
+                <img src="img/oliverecipe/add_result.png" width=200 />
+                <br />
+                <br />
+              </div>
+
+              <li>TFLite로 on-device 객체 인식 모델 구현</li>
+              <li>17가지로 훈련한 요리 재료 모델로 재료를 인식</li>
+              <li>카메라, 갤러리, 라즈베이 카메라를 통해 이미지의 객체를 검출</li>
+              <li>검출된 객체들을 Room DB에 전달</li>
+              <br />
+              <br />
+
+              <div style="text-align : center;">
+                <pre>추천받은 레시피 결과</pre>
+                <br />
+                <img src="img/oliverecipe/recipe.png" width=300 />
+                <br />
+                <br />
+              </div>
+              <li>food style korea의 openAPI 데이터 연동</li>
+              <li>나의 냉장고에 추가된 최신 재료 3개를 기반으로 호출</li>
+              <br />
+              <br />
+
+              <div style="text-align : center;">
+                <pre>카카오 음성합성 API</pre>
+                <br />
+                <img src="img/oliverecipe/pi.png" width=500 />
+                <br />
+                <br />
+              </div>
+              <li>Mqtt 통신으로 카카오 음성합성 API를 호출하여 레시피를 읽음</li>
+              <li>유통 기한이 하루 남았을때 재료에 대한 음성 알림 메시지</li>
+              <br />
+              <br />
+
+
             </div>
-            </p>
-
-            <br />
-            <div style="text-align : center;">
-              <pre>기술 스택</pre>
-              <br />
-
-              <img src="img/oliverecipe/stack.png" width=500 />
-              <br />
-              <br />
-              <pre>UI 플로우차트</pre>
-              <br />
-              <img src="img/oliverecipe/ui.png" width=500 />
-            </div>
-            <br />
-            <br />
-            <div style="text-align : center;">
-              <pre>객체 인식 및 나의 냉장고 추가</pre>
-              <br />
-
-              <img src="img/oliverecipe/object.png" width=200 />
-              <img src="img/oliverecipe/add.png" width=200 />
-              <img src="img/oliverecipe/add_result.png" width=200 />
-              <br />
-              <br />
-            </div>
-
-            <li>TFLite로 on-device 객체 인식 모델 구현</li>
-            <li>17가지로 훈련한 요리 재료 모델로 재료를 인식</li>
-            <li>카메라, 갤러리, 라즈베이 카메라를 통해 이미지의 객체를 검출</li>
-            <li>검출된 객체들을 Room DB에 전달</li>
-            <br />
-            <br />
-
-            <div style="text-align : center;">
-              <pre>추천받은 레시피 결과</pre>
-              <br />
-              <img src="img/oliverecipe/recipe.png" width=300 />
-              <br />
-              <br />
-            </div>
-            <li>food style korea의 openAPI 데이터 연동</li>
-            <li>나의 냉장고에 추가된 최신 재료 3개를 기반으로 호출</li>
-            <br />
-            <br />
-
-            <div style="text-align : center;">
-              <pre>카카오 음성합성 API</pre>
-              <br />
-              <img src="img/oliverecipe/pi.png" width=500 />
-              <br />
-              <br />
-            </div>
-            <li>Mqtt 통신으로 카카오 음성합성 API를 호출하여 레시피를 읽음</li>
-            <li>유통 기한이 하루 남았을때 재료에 대한 음성 알림 메시지</li>
-            <br />
-            <br />
-
-
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
 
 
-  <!--animatedModal03-->
-  <div id="animatedModal03" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal03 close-popup-modal"><i class="ion-close-round"></i></div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>
-              Team Scheduler<br />
-              with Django
-            </h2>
+    <!--animatedModal03-->
+    <div id="modal-03" class="popup-modal">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-modal-03 close-popup-modal"><i class="ion-close-round"></i></div>
+      <div class="clearfix"></div>
+      <div class="modal-content">
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>
+                Team Scheduler<br />
+                with Django
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;Bootstrap을 참조하여 팀월들간의 스케줄 관리를 할 수 있는 웹 페이지를 구현하였다. </br>
-              <i class="far fa-hand-point-right"></i>&nbsp;회원 가입을 통해 캘린더 일정 및 자유 게시판에 등록할 수 있다.
-            </p>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;팔로우 / 팔로잉 기능을 통해 멤버끼리 팀을 맺을 수 있고 </br>
-              <i class="far fa-hand-point-right"></i>&nbsp;프로필 화면을 구현하여 회원 개인의 정보를 공유할 수 있다.
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2022.02 (약 2주)</br>
-              <strong>[프로젝트 인원]</strong> 4명 </br>
-              <strong>[사용 기술]</strong> Python, Django, Bootstrap, HTML5, CSS </br>
-              <strong>[목적]</strong> 팀원들간의 일정 공유를 통하여 효율적인 팀 프로젝트 일정을 확립</br>
-              <strong>[프로젝트 요약]</strong> Django 프레임워크를 활용하여 팀월들간의 스케쥴 관리를 할 수 있는 웹 페이지 구현 </br>
-              <strong>[담당 업무]</strong> </br>
-              팀장 </br>
-              캘린더 구현 </br>
-              게시판 구현 </br>
-              프로필 구현 </br>
-              팔로우/팔로잉 구현 </br>
-              <strong>[성과]</strong> 멀티캠퍼스 인터페이스 개발 프로젝트 수료 </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/Interface_project')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;Bootstrap을 참조하여 팀월들간의 스케줄 관리를 할 수 있는 웹 페이지를 구현하였다. </br>
+                <i class="far fa-hand-point-right"></i>&nbsp;회원 가입을 통해 캘린더 일정 및 자유 게시판에 등록할 수 있다.
+              </p>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;팔로우 / 팔로잉 기능을 통해 멤버끼리 팀을 맺을 수 있고 </br>
+                <i class="far fa-hand-point-right"></i>&nbsp;프로필 화면을 구현하여 회원 개인의 정보를 공유할 수 있다.
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2022.02 (약 2주)</br>
+                <strong>[프로젝트 인원]</strong> 4명 </br>
+                <strong>[사용 기술]</strong> Python, Django, Bootstrap, HTML5, CSS </br>
+                <strong>[목적]</strong> 팀원들간의 일정 공유를 통하여 효율적인 팀 프로젝트 일정을 확립</br>
+                <strong>[프로젝트 요약]</strong> Django 프레임워크를 활용하여 팀월들간의 스케쥴 관리를 할 수 있는 웹 페이지 구현 </br>
+                <strong>[담당 업무]</strong> </br>
+                팀장 </br>
+                캘린더 구현 </br>
+                게시판 구현 </br>
+                프로필 구현 </br>
+                팔로우/팔로잉 구현 </br>
+                <strong>[성과]</strong> 멀티캠퍼스 인터페이스 개발 프로젝트 수료 </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/Interface_project')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
+
+              <br />
+              <div>
+                <img src="img/django/calendar.png" width=350 /> &nbsp;&nbsp;
+                <img src="img/django/board.png" width=350 />
+              </div>
+              <br />
+              <div>
+                <img src="img/django/scheduler.png" width=350 /> &nbsp;&nbsp;
+                <img src="img/django/dlwlrma.png" width=350 />
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
-            </p>
-
-            <br />
-            <div>
-              <img src="img/django/calendar.png" width=350 /> &nbsp;&nbsp;
-              <img src="img/django/board.png" width=350 />
-            </div>
-            <br />
-            <div>
-              <img src="img/django/scheduler.png" width=350 /> &nbsp;&nbsp;
-              <img src="img/django/dlwlrma.png" width=350 />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!--animatedModal04-->
-  <div id="animatedModal04" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal04 close-popup-modal"><i class="ion-close-round"></i></div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>
-              자연어처리 기반의 불공정 약관 판별 연구<br />
-              with KOBERT
-            </h2>
+    <!--animatedModal04-->
+    <div id="modal-04" class="popup-modal">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-modal-04 close-popup-modal"><i class="ion-close-round"></i></div>
+      <div class="clearfix"></div>
+      <div class="modal-content">
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>
+                자연어처리 기반의 불공정 약관 판별 연구<br />
+                with KOBERT
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;불공정 약관의 데이터 셋은 공정거래위원회의 불공정 약관 조항에 대한 의결서와 시정 보도자료를 통해
-              확보하였다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;보도자료에 따른 불공정, 공정 사례를 바탕으로 지도학습 진행을 위한 TRUE/FALSE 라벨을 부여 </br>
-              <i class="far fa-hand-point-right"></i>&nbsp;pytorch 기반의 KOBERT 모델을 활용하여 지도학습
-            </p>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;Mecab 데이터 전처리 및 토크나이징을 하고, 약관에서 자주 사용되는 단어들을 모아 </br>
-              <i class="far fa-hand-point-right"></i>&nbsp;용자 사전을 따로 추가하고 특수기호와 불용어를 제거하는 과정을 통해 출력 데이터의 정확도를 높임
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2021.08 ~ 2021.09 </br>
-              <strong>[프로젝트 인원]</strong> 4명 </br>
-              <strong>[사용 기술]</strong> Python, KOBERT, mecab, EDA, flask </br>
-              <strong>[목적]</strong> 소비자들이 어려워하는 이용약관에 대한 접근성, 이해 확립 </br>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 소비자가 불공정 이용 약관으로부터 피해를 입는 사례는 점점 늘어나는 추세 </br>
-              <strong>[프로젝트 요약]</strong> 불공정 이용약관 데이터와 일반 이용약관의 데이터 셋을 수집하여 학습 데이터로 활용하고, </br>
-              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-              KoBERT 모델을 활용하여 flask 웹 서비스로 구현하였다. </br>
-              <strong>[담당 업무]</strong> </br>
-              이용약관 데이터 수집 </br>
-              mecab 토크나이저를 활용한 전처리 및 사용자 사전 추가 </br>
-              kobert 모델 활용한 구축 </br>
-              flask를 활용한 웹 서비스 구현 </br>
-              <strong>[성과]</strong> 데이터 청년 캠퍼스 수료 및 교내 공모전 우수상 </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/terms_test')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
-            </div>
-            </p>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;불공정 약관의 데이터 셋은 공정거래위원회의 불공정 약관 조항에 대한 의결서와 시정 보도자료를 통해
+                확보하였다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;보도자료에 따른 불공정, 공정 사례를 바탕으로 지도학습 진행을 위한 TRUE/FALSE 라벨을 부여
+                </br>
+                <i class="far fa-hand-point-right"></i>&nbsp;pytorch 기반의 KOBERT 모델을 활용하여 지도학습
+              </p>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;Mecab 데이터 전처리 및 토크나이징을 하고, 약관에서 자주 사용되는 단어들을 모아 </br>
+                <i class="far fa-hand-point-right"></i>&nbsp;용자 사전을 따로 추가하고 특수기호와 불용어를 제거하는 과정을 통해 출력 데이터의 정확도를 높임
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2021.08 ~ 2021.09 </br>
+                <strong>[프로젝트 인원]</strong> 4명 </br>
+                <strong>[사용 기술]</strong> Python, KOBERT, mecab, EDA, flask </br>
+                <strong>[목적]</strong> 소비자들이 어려워하는 이용약관에 대한 접근성, 이해 확립 </br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 소비자가 불공정 이용 약관으로부터 피해를 입는 사례는 점점 늘어나는 추세 </br>
+                <strong>[프로젝트 요약]</strong> 불공정 이용약관 데이터와 일반 이용약관의 데이터 셋을 수집하여 학습 데이터로 활용하고, </br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                KoBERT 모델을 활용하여 flask 웹 서비스로 구현하였다. </br>
+                <strong>[담당 업무]</strong> </br>
+                이용약관 데이터 수집 </br>
+                mecab 토크나이저를 활용한 전처리 및 사용자 사전 추가 </br>
+                kobert 모델 활용한 구축 </br>
+                flask를 활용한 웹 서비스 구현 </br>
+                <strong>[성과]</strong> 데이터 청년 캠퍼스 수료 및 교내 공모전 우수상 </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/terms_test')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
 
-            <br />
-            <div>
-              <img src="img/nlp/background.png" width=350 /> &nbsp;&nbsp;
-              <img src="img/nlp/background2.png" width=350 />
+              <br />
+              <div>
+                <img src="img/nlp/background.png" width=350 /> &nbsp;&nbsp;
+                <img src="img/nlp/background2.png" width=350 />
+              </div>
+              <br />
+              <div>
+                <img src="img/nlp/flow_chart.png" width=350 /> &nbsp;&nbsp;
+                <img src="img/nlp/ex01.png" width=350 />
+              </div>
+              <br />
+              <div>
+                <img src="img/nlp/ex02.png" width=700 /> &nbsp;&nbsp;
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
-            <br />
-            <div>
-              <img src="img/nlp/flow_chart.png" width=350 /> &nbsp;&nbsp;
-              <img src="img/nlp/ex01.png" width=350 />
-            </div>
-            <br />
-            <div>
-              <img src="img/nlp/ex02.png" width=700 /> &nbsp;&nbsp;
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!--animatedModal05-->
-  <div id="animatedModal05" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal05 close-popup-modal"><i class="ion-close-round"></i></div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>
-              차체 검사구 렌탈 서비스 기업의 <br />홈페이지 기획<br />
-              with React
-            </h2>
+    <!--animatedModal05-->
+    <div id="modal-05" class="popup-modal">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-modal-05 close-popup-modal"><i class="ion-close-round"></i></div>
+      <div class="clearfix"></div>
+      <div class="modal-content">
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>
+                차체 검사구 렌탈 서비스 기업의 <br />홈페이지 기획<br />
+                with React
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;기업의 요구에 맞춰 설비, 검사구 제품에 관련된 사진들을 사용 및 직관적인 UI, 연한 네이비 계통의 색을
-              사용</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;2주마다 산학 연계 기업의 멘토에게 피드백을 받아 서비스하고자 하는 홈페이지의 기획안을 제작 </br>
-            </p>
-            <i class="far fa-hand-point-right"></i>&nbsp;팀원 모두 웹에 대한 지식이 거의 없는 상태로 시작해서 렌탈 시장 조사, 기획, CSS 디자인 등 모든 단계를
-            </br>&nbsp;&nbsp;&nbsp;&nbsp;주도적으로 학습하여 구현한 의미 있는 프로젝트 </br>
-            <i class="far fa-hand-point-right"></i>&nbsp;산업체 대표 님의 요구에 따라서 웹 페이지를 개발했으며 팀원들과의 첫 github 협업을 통한 실무 경험을 얻은
-            프로젝트
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2021.03 ~ 2021.06</br>
-              <strong>[프로젝트 인원]</strong> 4명 </br>
-              <strong>[사용 기술]</strong> HTML, CSS, JS, Nods.js, React Framework, BootStrap </br>
-              <strong>[목적]</strong> 고가의 차체 검사구 기술 및 설비 도입의 어려움에 의한 스타트업 회사들의 검사구 기술 초기 접근성 확립 </br>
-              <strong>[프로젝트 요약]</strong> 산업체 멘토의 요구에 따라 당사 차체 검사구 서비스를 소개하는 웹 페이지를 React 기반으로 제작 </br>
-              <strong>[담당 업무]</strong> </br>
-              팀장 </br>
-              홈페이지 기획 및 프로토타입 구축 </br>
-              메인 홈페이지 개발, 렌탈 시뮬레이션 페이지 개발 </br>
-              대표님과의 지속적인 피드백을 통해 페이지 보완 </br>
-              <strong>[성과]</strong> 산학 연계 캡스톤 설계 A+ </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/CAPSTONE2021')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;기업의 요구에 맞춰 설비, 검사구 제품에 관련된 사진들을 사용 및 직관적인 UI, 연한 네이비 계통의 색을
+                사용</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;2주마다 산학 연계 기업의 멘토에게 피드백을 받아 서비스하고자 하는 홈페이지의 기획안을 제작 </br>
+              </p>
+              <i class="far fa-hand-point-right"></i>&nbsp;팀원 모두 웹에 대한 지식이 거의 없는 상태로 시작해서 렌탈 시장 조사, 기획, CSS 디자인 등 모든 단계를
+              </br>&nbsp;&nbsp;&nbsp;&nbsp;주도적으로 학습하여 구현한 의미 있는 프로젝트 </br>
+              <i class="far fa-hand-point-right"></i>&nbsp;산업체 대표 님의 요구에 따라서 웹 페이지를 개발했으며 팀원들과의 첫 github 협업을 통한 실무 경험을
+              얻은
+              프로젝트
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2021.03 ~ 2021.06</br>
+                <strong>[프로젝트 인원]</strong> 4명 </br>
+                <strong>[사용 기술]</strong> HTML, CSS, JS, Nods.js, React Framework, BootStrap </br>
+                <strong>[목적]</strong> 고가의 차체 검사구 기술 및 설비 도입의 어려움에 의한 스타트업 회사들의 검사구 기술 초기 접근성 확립 </br>
+                <strong>[프로젝트 요약]</strong> 산업체 멘토의 요구에 따라 당사 차체 검사구 서비스를 소개하는 웹 페이지를 React 기반으로 제작 </br>
+                <strong>[담당 업무]</strong> </br>
+                팀장 </br>
+                홈페이지 기획 및 프로토타입 구축 </br>
+                메인 홈페이지 개발, 렌탈 시뮬레이션 페이지 개발 </br>
+                대표님과의 지속적인 피드백을 통해 페이지 보완 </br>
+                <strong>[성과]</strong> 산학 연계 캡스톤 설계 A+ </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/CAPSTONE2021')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
+
+              <br />
+              <div style="text-align : center;">
+                <pre>1차 멘토링 당시 계획안</pre>
+                <img src="img/rental/background.png" width=500 />
+                <img src="img/rental/process.png" width=500 />
+                <br />
+                <br />
+                <pre>렌탈 서비스 매뉴얼 기획안</pre>
+                <br />
+                <img src="img/rental/manual.png" width=500 />
+              </div>
+              <br />
+              <br />
+              <br />
+              <div style="text-align : center;">
+                <pre>React로 구현한 홈페이지의 기획안</pre>
+                <img src="img/rental/main.png" width=500 />
+                <br />
+                <br />
+                <img src="img/rental/simul.png" width=500 />
+                <br />
+                <br />
+                <img src="img/rental/detail.png" width=500 />
+              </div>
+
+              <br />
+              <br />
+              <br />
             </div>
-            </p>
-
-            <br />
-            <div style="text-align : center;">
-              <pre>1차 멘토링 당시 계획안</pre>
-              <img src="img/rental/background.png" width=500 />
-              <img src="img/rental/process.png" width=500 />
-              <br />
-              <br />
-              <pre>렌탈 서비스 매뉴얼 기획안</pre>
-              <br />
-              <img src="img/rental/manual.png" width=500 />
-            </div>
-            <br />
-            <br />
-            <br />
-            <div style="text-align : center;">
-              <pre>React로 구현한 홈페이지의 기획안</pre>
-              <img src="img/rental/main.png" width=500 />
-              <br />
-              <br />
-              <img src="img/rental/simul.png" width=500 />
-              <br />
-              <br />
-              <img src="img/rental/detail.png" width=500 />
-            </div>
-
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
-  <!--animatedModal06-->
-  <div id="animatedModal06" class="popup-modal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal06 close-popup-modal"><i class="ion-close-round"></i></div>
-    <div class="clearfix"></div>
-    <div class="modal-content">
+    <!--animatedModal06-->
+    <div id="modal-06" class="popup-modal">
+      <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+      <div id="btn-close-modal" class="close-modal-06 close-popup-modal"><i class="ion-close-round"></i></div>
+      <div class="clearfix"></div>
+      <div class="modal-content">
 
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>-2016 이공계 학술제-</h2>
-            <h2>라즈베리파이 기반의 <br />반려 동물 사료 급식기</h2>
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>-2016 이공계 학술제-</h2>
+              <h2>라즈베리파이 기반의 <br />반려 동물 사료 급식기</h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;라즈베리 파이에 카메라, 음성, 모션 센서를 활용하여 반려 동물 사료 급식기를 제작</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;웹 서버를 구현하여 버튼을 누르면 사료 급식기가 작동하며 주인의 목소리를 반려동물에게 들려줄 수
-              있다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;급식기가 작동하면 실시간 영상 카메라를 통해 반려 동물의 상태를 원거리에서 확인할 수 있다.
-              </br>
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2016.09 ~ 2016.10</br>
-              <strong>[프로젝트 인원]</strong> 4명 </br>
-              <strong>[사용 기술]</strong> Raspberry pi, Django</br>
-              <strong>[목적]</strong> IoT를 활용한 반려동물에 대한 효율적 관리 </br>
-              <strong>[프로젝트 요약]</strong> 라즈베리 파이에 카메라, 음성, 모션 센서를 활용하여 반려 동물 사료 급식기를 제작 </br>
-              <strong>[담당 업무]</strong> 웹 서버 구현</br>
-              <strong>[성과]</strong> 교내 학술제 동상 </br>
-            </p>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;라즈베리 파이에 카메라, 음성, 모션 센서를 활용하여 반려 동물 사료 급식기를 제작</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;웹 서버를 구현하여 버튼을 누르면 사료 급식기가 작동하며 주인의 목소리를 반려동물에게 들려줄 수
+                있다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;급식기가 작동하면 실시간 영상 카메라를 통해 반려 동물의 상태를 원거리에서 확인할 수 있다.
+                </br>
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2016.09 ~ 2016.10</br>
+                <strong>[프로젝트 인원]</strong> 4명 </br>
+                <strong>[사용 기술]</strong> Raspberry pi, Django</br>
+                <strong>[목적]</strong> IoT를 활용한 반려동물에 대한 효율적 관리 </br>
+                <strong>[프로젝트 요약]</strong> 라즈베리 파이에 카메라, 음성, 모션 센서를 활용하여 반려 동물 사료 급식기를 제작 </br>
+                <strong>[담당 업무]</strong> 웹 서버 구현</br>
+                <strong>[성과]</strong> 교내 학술제 동상 </br>
+              </p>
 
-            <br />
-            <br />
-            <br />
+              <br />
+              <br />
+              <br />
+            </div>
           </div>
         </div>
-      </div>
 
-      <br />
-      <br />
+        <br />
+        <br />
 
 
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>-토이 프로젝트 01-</h2>
-            <h2>
-              카카오 음성 인식/합성 API 응용 <br />
-              라즈베리파이 애플리케이션
-            </h2>
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>-토이 프로젝트 01-</h2>
+              <h2>
+                카카오 음성 인식/합성 API 응용 <br />
+                라즈베리파이 애플리케이션
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;라즈베리파이의 GPIO를 사용하여 버튼을 누르고 있을 때 마이크를 통해 녹음을 시작한다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;버튼을 떼었을 때 녹음이 저장되며 인식한 텍스트에 따라서 장치를 제어할 수 있다.
-              </br>
-            </p>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;녹음된 음성은 카카오 TTS API를 사용하여 음성 인식 처리한다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;날씨의 경우 openweatherAPI를 사용하여 현재 지역의 날씨를 카카오 음성 합성으로 불러올 수 있게
-              하였다.
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2022.04 </br>
-              <strong>[사용 기술]</strong> Python, Django, Raspberry pi </br>
-              <strong>[목적]</strong>라즈베리 파이 토이 프로젝트</br>
-              <strong>[프로젝트 요약]</strong> openAPI를 활용하여 음성 인식/합성을 수행하는 라즈베리파이 애플리케이션 제작 </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216?tab=repositories')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;라즈베리파이의 GPIO를 사용하여 버튼을 누르고 있을 때 마이크를 통해 녹음을 시작한다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;버튼을 떼었을 때 녹음이 저장되며 인식한 텍스트에 따라서 장치를 제어할 수 있다.
+                </br>
+              </p>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;녹음된 음성은 카카오 TTS API를 사용하여 음성 인식 처리한다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;날씨의 경우 openweatherAPI를 사용하여 현재 지역의 날씨를 카카오 음성 합성으로 불러올 수 있게
+                하였다.
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2022.04 </br>
+                <strong>[사용 기술]</strong> Python, Django, Raspberry pi </br>
+                <strong>[목적]</strong>라즈베리 파이 토이 프로젝트</br>
+                <strong>[프로젝트 요약]</strong> openAPI를 활용하여 음성 인식/합성을 수행하는 라즈베리파이 애플리케이션 제작 </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216?tab=repositories')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
+
+              <br />
+              <br />
+              <div style="text-align : center;">
+                <pre>구성 정보</pre>
+                <img src="img/raspberry_pi/connection.png" width=350 />
+                <img src="img/raspberry_pi/order.png" width=350 />
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
-            </p>
-
-            <br />
-            <br />
-            <div style="text-align : center;">
-              <pre>구성 정보</pre>
-              <img src="img/raspberry_pi/connection.png" width=350 />
-              <img src="img/raspberry_pi/order.png" width=350 />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
-      </div>
 
-      <br />
-      <br />
+        <br />
+        <br />
 
 
-      <div class="container">
-        <div class="portfolio-padding">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>-토이 프로젝트 02-</h2>
-            <h2>
-              라즈베리파이 PIR 센서를 통한 <br />
-              카카오톡 메시지 연동 프로그램
-            </h2>
+        <div class="container">
+          <div class="portfolio-padding">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>-토이 프로젝트 02-</h2>
+              <h2>
+                라즈베리파이 PIR 센서를 통한 <br />
+                카카오톡 메시지 연동 프로그램
+              </h2>
 
-            <div class="h-50"></div>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;PIR센서(모션 인식센서)에 의해 모션이 감지되면 사용자의 카카오톡으로 알림을 보낸다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;카카오톡 api를 사용하여 사용하고자 하는 메시지의 종류, 구성 방법에 따라 다양한 메시지를 보낼 수 있다.
-              </br>
-            </p>
-            <p>
-              <i class="far fa-hand-point-right"></i>&nbsp;서버는 Django를 활용하였고 문자열, 링크를 사전으로 구성하여 POST 방법으로 전송하였다.</br>
-              <i class="far fa-hand-point-right"></i>&nbsp;카카오톡 메시지를 누르면 라즈베리파이에 연결된 카메라로 모션이 감지된 구역의 실시간 영상을 웹으로 볼 수
-              있다.
-            </p>
-            <br />
-            <br />
-            <p>
-              <strong>[기간]</strong> 2022.03 </br>
-              <strong>[사용 기술]</strong> Python, Django, Raspberry pi </br>
-              <strong>[목적]</strong>라즈베리 파이 응용 연습</br>
-              <strong>[프로젝트 요약]</strong> 라즈베리 파이의 센서를 통해 동작을 감지하고 사용자에게 메시지를 보내 실시간 영상을 확인할 수 있다. </br>
-            <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/kakao_PIR')"
-              style="cursor:pointer;">
-              <strong>[깃허브 보러 가기]</strong>
+              <div class="h-50"></div>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;PIR센서(모션 인식센서)에 의해 모션이 감지되면 사용자의 카카오톡으로 알림을 보낸다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;카카오톡 api를 사용하여 사용하고자 하는 메시지의 종류, 구성 방법에 따라 다양한 메시지를 보낼 수
+                있다.
+                </br>
+              </p>
+              <p>
+                <i class="far fa-hand-point-right"></i>&nbsp;서버는 Django를 활용하였고 문자열, 링크를 사전으로 구성하여 POST 방법으로 전송하였다.</br>
+                <i class="far fa-hand-point-right"></i>&nbsp;카카오톡 메시지를 누르면 라즈베리파이에 연결된 카메라로 모션이 감지된 구역의 실시간 영상을 웹으로 볼 수
+                있다.
+              </p>
+              <br />
+              <br />
+              <p>
+                <strong>[기간]</strong> 2022.03 </br>
+                <strong>[사용 기술]</strong> Python, Django, Raspberry pi </br>
+                <strong>[목적]</strong>라즈베리 파이 응용 연습</br>
+                <strong>[프로젝트 요약]</strong> 라즈베리 파이의 센서를 통해 동작을 감지하고 사용자에게 메시지를 보내 실시간 영상을 확인할 수 있다. </br>
+              <div class="detail" onclick="window.open('https://github.com/NongDamGom1216/kakao_PIR')"
+                style="cursor:pointer;">
+                <strong>[깃허브 보러 가기]</strong>
+              </div>
+              </p>
+
+              <br />
+              <br />
+              <div style="text-align : center;">
+                <pre>카카오톡 메시지</pre>
+                <img src="img/raspberry_pi/message.png" width=350 />
+                <img src="img/raspberry_pi/streaming.png" width=315 />
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
-            </p>
-
-            <br />
-            <br />
-            <div style="text-align : center;">
-              <pre>카카오톡 메시지</pre>
-              <img src="img/raspberry_pi/message.png" width=350 />
-              <img src="img/raspberry_pi/streaming.png" width=315 />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!--  plugins  -->
+    <script src="js/animatedModal.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
 
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-  <!--  plugins  -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.form.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/animatedModal.js"></script>
-  <script src="js/animatedModal.min.js"></script>
-  <script>
-    $("#App01").animatedModal({
-      animatedIn: 'zoomIn',
-      animatedOut: 'bounceOutDown',
-      color: '#3498db'
-    });
-    $("#App02").animatedModal({
-      animatedIn: 'zoomIn',
-      animatedOut: 'bounceOut',
-      color: '#3498db'
-    });
-    $("#App03").animatedModal({
-      animatedIn: 'lightSpeedIn',
-      animatedOut: 'bounceOut',
-      color: '#3498db',
-      // afterClose: function () {
-      //   $("#App02").animatedModal().close()
-      // }
-    });
-
-    $("#App04").animatedModal({
-      animatedIn: 'zoomIn',
-      animatedOut: 'bounceOutDown',
-      color: '#3498db',
-      // Callbacks
-      // afterClose: function () {
-      //   $("#App02").animatedModal().close()
-      // }
-    });
-    $("#App05").animatedModal({
-      animatedIn: 'zoomIn',
-      animatedOut: 'bounceOutDown',
-      color: '#3498db',
-      // Callbacks
-      // afterClose: function () {
-      //   $("#App02").animatedModal().close()
-      // }
-    });
-    $("#App06").animatedModal({
-      animatedIn: 'zoomIn',
-      animatedOut: 'bounceOut',
-      color: '#3498db',
-      // Callbacks
-      // afterClose: function () {
-      //   $("#App02").animatedModal().close()
-      // }
-    });
-  </script>
-
-  <!--  main script  -->
-  <script src="js/custom.js"></script>
 </body>
 
 </html>
