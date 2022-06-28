@@ -597,27 +597,27 @@ a.active {
   right: 14px;
 }
 
-.animatedModal01-on .close-popup-modal {
+.modal-01-on .close-popup-modal {
   opacity: 1;
 }
 
-.animatedModal02-on .close-popup-modal {
+.modal-02-on .close-popup-modal {
   opacity: 1;
 }
 
-.animatedModal03-on .close-popup-modal {
+.modal-03-on .close-popup-modal {
   opacity: 1;
 }
 
-.animatedModal04-on .close-popup-modal {
+.modal-04-on .close-popup-modal {
   opacity: 1;
 }
 
-.animatedModal05-on .close-popup-modal {
+.modal-05-on .close-popup-modal {
   opacity: 1;
 }
 
-.animatedModal06-on .close-popup-modal {
+.modal-06-on .close-popup-modal {
   opacity: 1;
 }
 
@@ -1034,4 +1034,6 @@ fieldset {
 }
 .rit-cover .profess-cover .progress-bar {
   background-color: #00ab9f;
+}
+
 }
